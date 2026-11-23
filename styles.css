@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   background-color: antiquewhite;
 }
 
@@ -19,20 +19,17 @@ body {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
   height: 600px;
   width: 600px;
-  border: 3px solid black;
+  border: 3px solid white;
   padding: 2px;
 }
 
 .box {
-  border: 3px solid white;
-  width: calc((100% - 15 * 2px) / 16);
-  height: calc((100% - 15 * 2px) / 16);
+  border: 1px solid white;
 }
 
 .pixelated-trail-color {
   transition: ease 0.1s;
-  background-color: rgb(17, 120, 224);
+  background-color: rgb(59, 138, 217);
 }
