@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
   background-color: antiquewhite;
 }
 
@@ -32,6 +33,6 @@ body {
 }
 
 .pixelated-trail-color {
-  transition: ease 0.2s;
+  transition: ease 0.1s;
   background-color: rgb(17, 120, 224);
 }
