@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: antiquewhite;
 }
 
 .container {
@@ -25,7 +26,12 @@ body {
 }
 
 .box {
-  border: 3px solid black;
+  border: 3px solid white;
   width: calc((100% - 15 * 2px) / 16);
   height: calc((100% - 15 * 2px) / 16);
+}
+
+.pixelated-trail-color {
+  transition: ease 0.2s;
+  background-color: rgb(17, 120, 224);
 }
