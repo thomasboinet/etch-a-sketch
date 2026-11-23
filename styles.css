@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  height: 600px;
+  width: 600px;
+  border: 3px solid black;
+  padding: 2px;
+}
+
+.box {
+  border: 3px solid black;
+  width: calc((100% - 15 * 2px) / 16);
+  height: calc((100% - 15 * 2px) / 16);
+}
